@@ -1,0 +1,34 @@
+\section{addmember Class Reference}
+\label{classaddmember}\index{addmember@{addmember}}
+
+
+Inheritance diagram for addmember\+:
+% FIG 0
+
+
+Collaboration diagram for addmember\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classaddmember_a71869b6a81e95f93642d10f80c2327cf}} 
+\textbf{ addmember} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\label{classaddmember_af6db95f4a16ad851e93cb73e8ab27c93}} 
+\textbf{ $\sim$addmember} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+\mbox{\label{classaddmember_a4978f6c68773bf6a20cc66807dbd473c}} 
+void \textbf{ set\+A\+Tools} (\textbf{ admin\+Tools} $\ast$value)
+\begin{DoxyCompactList}\small\item\em sets \doxyref{admin\+Tools}{p.}{classadmin_tools} \end{DoxyCompactList}\item 
+\mbox{\label{classaddmember_a4564b3208351a1461b70a8e02482d8cb}} 
+void \textbf{ execute\+On\+Accept\+Clicked\+As\+Normal} ()
+\begin{DoxyCompactList}\small\item\em run without debug mode \end{DoxyCompactList}\item 
+\mbox{\label{classaddmember_a15941fcedec04b2c70e023b852b22c86}} 
+void \textbf{ execute\+On\+Accept\+Clicked\+As\+Test} ()
+\begin{DoxyCompactList}\small\item\em run with debug mode \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+addmember.\+h\item 
+addmember.\+cpp\end{DoxyCompactItemize}

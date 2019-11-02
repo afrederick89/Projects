@@ -1,0 +1,63 @@
+\section{S\+Q\+L\+Manager Class Reference}
+\label{class_s_q_l_manager}\index{S\+Q\+L\+Manager@{S\+Q\+L\+Manager}}
+
+
+{\ttfamily \#include $<$sqlmanager.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_s_q_l_manager_a0ac9b2a7fb986c49bb579a3960cb74ec}} 
+{\bfseries S\+Q\+L\+Manager} (Q\+String \&path)
+\item 
+\mbox{\label{class_s_q_l_manager_a2a68b3eb43cbc83ca4e3192d67f3682f}} 
+\textbf{ $\sim$\+S\+Q\+L\+Manager} ()
+\begin{DoxyCompactList}\small\item\em 1 arg constructor for path to DB \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a2b0db8b379078c5a520a398fb9289bb2}} 
+bool \textbf{ load\+Admin\+Logins} (Q\+Vector$<$ \textbf{ Login} $>$ \&vlogin)
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a9c151d5d7c684d330e80ca0a7428281f}} 
+bool \textbf{ load\+Cust\+Logins} (Q\+Vector$<$ \textbf{ Login} $>$ \&vlogin)
+\begin{DoxyCompactList}\small\item\em Loads adminlogin table. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a7faac13e3ee727e941db2dae41901f06}} 
+bool \textbf{ load\+Current\+Customer} (Q\+Vector$<$ \textbf{ cur\+Customer} $>$ \&v\+C\+Cust)
+\begin{DoxyCompactList}\small\item\em Loads customerlogin table. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a41e7098ac6118323bdcf93c900fda986}} 
+bool \textbf{ load\+Potential\+Customer} (Q\+Vector$<$ \textbf{ pot\+Customer} $>$ \&v\+P\+Cust)
+\begin{DoxyCompactList}\small\item\em Loads current Customers. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a24ad92b7d8b424a6caf809d9355644d9}} 
+bool \textbf{ load\+Products} (Q\+Vector$<$ \textbf{ cur\+Products} $>$ \&vproducts)
+\begin{DoxyCompactList}\small\item\em Loads potential customers. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a550d329cb415eecc6bc19d73d51911be}} 
+bool \textbf{ load\+Maintenance\+Plans} (Q\+Vector$<$ \textbf{ Maint\+Plan} $>$ \&v\+Maint\+Plan)
+\begin{DoxyCompactList}\small\item\em Loads current products. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a5f47f7e493f263c88907fd5f9db8a7e2}} 
+bool \textbf{ load\+Purchases} (Q\+Vector$<$ \textbf{ Purchases} $>$ \&v\+Purchases)
+\begin{DoxyCompactList}\small\item\em Loads maintenance plans. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a3c893a806a1a5eaf0c5691a2aabbbf6f}} 
+bool \textbf{ load\+Testimonials} (Q\+Vector$<$ \textbf{ Testimonial} $>$ \&v\+Reviews)
+\begin{DoxyCompactList}\small\item\em loads purchases \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_aa4d417bd533dba5f0ed7039c30fd357c}} 
+bool \textbf{ add\+Testimonial} (\textbf{ Testimonial} \&in\+Review)
+\begin{DoxyCompactList}\small\item\em loads testimonials \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_aacebc1675248991b6f371487f1ea0502}} 
+bool \textbf{ add\+Purchase} (\textbf{ Purchases} \&in\+Purchase)
+\begin{DoxyCompactList}\small\item\em Adds testimonial to database. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a3ebc320ea7566c740463500e01c69a0d}} 
+bool \textbf{ add\+Customer} (\textbf{ cur\+Customer} \&customer)
+\begin{DoxyCompactList}\small\item\em Adds purchase to database. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a24ac458ecb93283bbaaf02e7b272b78d}} 
+bool \textbf{ delete\+Customer\+From\+Db} (\textbf{ cur\+Customer} \&customer)
+\begin{DoxyCompactList}\small\item\em Adds customer to database. \end{DoxyCompactList}\item 
+\mbox{\label{class_s_q_l_manager_a39a08afa9877cfafbce4edf22551f2bd}} 
+bool \textbf{ add\+Potential\+Customer} (\textbf{ pot\+Customer} \&in\+Pot\+Customer)
+\begin{DoxyCompactList}\small\item\em Deletes customer from database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data Persistance Class -\/ Loads and Saves (Member,Login\+Type,\doxyref{Product}{p.}{class_product},Sale) data to S\+QL database 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+sqlmanager.\+h\item 
+sqlmanager.\+cpp\end{DoxyCompactItemize}

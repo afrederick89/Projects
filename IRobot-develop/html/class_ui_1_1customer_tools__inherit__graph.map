@@ -1,0 +1,3 @@
+<map id="Ui::customerTools" name="Ui::customerTools">
+<area shape="rect" id="node2" href="$class_ui__customer_tools.html" title="{Ui_customerTools\n|+ horizontalLayout\l+ C_Side\l+ verticalLayout_5\l+ Options\l+ Place_Order\l+ Exit_button\l+ C_Vspace\l+ C_Tabs\l+ Purchase_tab\l+ verticalLayout_2\l+ Purchase_Table\l+ Review_tab\l+ verticalLayout\l+ Review_text\l+ SubmitButton\l|+ setupUi()\l+ retranslateUi()\l}" alt="" coords="5,5,135,303"/>
+</map>

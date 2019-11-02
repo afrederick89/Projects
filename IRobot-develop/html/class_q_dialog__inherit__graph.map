@@ -1,0 +1,13 @@
+<map id="QDialog" name="QDialog">
+<area shape="rect" id="node2" href="$classaddmember.html" title="{addmember\n||+ addmember()\l+ ~addmember()\l+ setATools()\l+ executeOnAcceptClickedAs\lNormal()\l+ executeOnAcceptClickedAsTest()\l}" alt="" coords="5,226,236,377"/>
+<area shape="rect" id="node3" href="$classadmin_tools.html" title="{adminTools\n||+ adminTools()\l+ ~adminTools()\l+ currentCustomerToQTableView()\l+ setCurrentCustomers()\l+ bubbleSort()\l+ currentCustomerToQTableView\lWithKeyStatus()\l+ setPurchases()\l+ customersWithPurchasesTo\lQTableView()\l+ addCustomerToVectorAndData\lManager()\l+ setDm()\l+ deleteCustomer()\l+ getCurrentCustomers()\l+ resizeTableView()\l+ replaceCustomer()\l+ addCustomerViaDb()\l+ deleteCustomerFromDb()\l}" alt="" coords="261,131,482,472"/>
+<area shape="rect" id="node4" href="$classcustomernotfound.html" title="{customernotfound\n||+ customernotfound()\l+ ~customernotfound()\l}" alt="" coords="507,255,660,347"/>
+<area shape="rect" id="node5" href="$classcustomer_tools.html" title="{customerTools\n||+ customerTools()\l+ ~customerTools()\l+ SetUserOnlyData()\l+ resetTable()\l}" alt="" coords="684,241,827,362"/>
+<area shape="rect" id="node6" href="$classdeletemember.html" title="{deletemember\n||+ deletemember()\l+ ~deletemember()\l+ setATools()\l+ runAcceptClickedAsNormal()\l+ runAcceptClickedAsTest()\l}" alt="" coords="851,233,1052,369"/>
+<area shape="rect" id="node7" href="$class_duplicate_customer_error_window.html" title="{DuplicateCustomerErrorWindow\n||+ DuplicateCustomerErrorWindow()\l+ ~DuplicateCustomerErrorWindow()\l}" alt="" coords="1077,255,1311,347"/>
+<area shape="rect" id="node8" href="$class_edit_customer.html" title="{EditCustomer\n||+ EditCustomer()\l+ ~EditCustomer()\l+ setATools()\l+ executeOnAcceptClickedAsTest()\l+ executeOnAcceptClickedAs\lNormal()\l}" alt="" coords="1336,226,1567,377"/>
+<area shape="rect" id="node9" href="$class_invalid_add_customer_name.html" title="{InvalidAddCustomerName\n||+ InvalidAddCustomerName()\l+ ~InvalidAddCustomerName()\l}" alt="" coords="1591,255,1789,347"/>
+<area shape="rect" id="node10" href="$class_invalid_entry.html" title="{InvalidEntry\n||+ InvalidEntry()\l+ ~InvalidEntry()\l}" alt="" coords="1813,255,1929,347"/>
+<area shape="rect" id="node11" href="$class_null_spaces.html" title="{NullSpaces\n||+ NullSpaces()\l+ ~NullSpaces()\l}" alt="" coords="1953,255,2069,347"/>
+<area shape="rect" id="node12" href="$class_purchase_order.html" title="{PurchaseOrder\n||+ PurchaseOrder()\l+ ~PurchaseOrder()\l+ setList()\l}" alt="" coords="2093,248,2231,355"/>
+</map>

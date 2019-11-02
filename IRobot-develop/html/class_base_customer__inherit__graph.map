@@ -1,0 +1,4 @@
+<map id="BaseCustomer" name="BaseCustomer">
+<area shape="rect" id="node2" href="$class_customer.html" title="{Customer\n||+ Customer()\l+ isIdRepeated()\l+ setCustomerId()\l+ getPriority()\l+ setPriority()\l+ getCustomerId()\l+ getPurchases()\l+ setPurchases()\l}" alt="" coords="5,248,132,428"/>
+<area shape="rect" id="node3" href="$class_prospective_customer.html" title="{ProspectiveCustomer\n||+ ProspectiveCustomer()\l+ isPamphletRequested()\l+ setPamphletRequest()\l}" alt="" coords="156,285,325,391"/>
+</map>

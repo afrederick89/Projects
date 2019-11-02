@@ -1,0 +1,3 @@
+<map id="Ui::PurchaseOrder" name="Ui::PurchaseOrder">
+<area shape="rect" id="node2" href="$class_ui___purchase_order.html" title="{Ui_PurchaseOrder\n|+ verticalLayout\l+ horizontalLayout_3\l+ Products_col\l+ Product1\l+ Product2\l+ Product3\l+ Qty_col\l+ Pr1_Qty\l+ Pr2_Qty\l+ Pr3_Qty\l+ Plans_Col\l+ Plan1\l+ Plan2\l+ Plan3\l+ CostsCol\l+ PR1_Cost\l+ PR2_Cost\l+ PR3_Cost\l+ verticalSpacer\l+ line\l+ horizontalLayout_2\l+ Total_label\l+ Total_Cost\l+ horizontalLayout\l+ pushButton\l+ pushButton_2\l|+ setupUi()\l+ retranslateUi()\l}" alt="" coords="5,5,148,464"/>
+</map>

@@ -1,0 +1,67 @@
+\section{admin\+Tools Class Reference}
+\label{classadmin_tools}\index{admin\+Tools@{admin\+Tools}}
+
+
+Inheritance diagram for admin\+Tools\+:
+% FIG 0
+
+
+Collaboration diagram for admin\+Tools\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classadmin_tools_a5c81931a9377831d3ea8a62297f9dbc3}} 
+\textbf{ admin\+Tools} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a47389888cf3db497967e69b4ca70bc56}} 
+\textbf{ $\sim$admin\+Tools} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a4d2c3a554bc55fd3f51ee0f9b41e8af0}} 
+Q\+Standard\+Item\+Model $\ast$ \textbf{ current\+Customer\+To\+Q\+Table\+View} (Q\+Vector$<$ \textbf{ cur\+Customer} $>$ customers)
+\begin{DoxyCompactList}\small\item\em vector to Q\+Table\+View \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a6ec77fdf3ec45119869d9931a7fa9339}} 
+void \textbf{ set\+Current\+Customers} (Q\+Vector$<$ \textbf{ cur\+Customer} $>$ customers)
+\begin{DoxyCompactList}\small\item\em populates the customer vector \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a086e8095615e706756e3f0cf2664f25e}} 
+void \textbf{ bubble\+Sort} (Q\+Vector$<$ \textbf{ cur\+Customer} $>$ \&vector)
+\begin{DoxyCompactList}\small\item\em sorts alphabetically by first name \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_aeb25d8f7db9a40659c95d1c341ff67a3}} 
+Q\+Standard\+Item\+Model $\ast$ \textbf{ current\+Customer\+To\+Q\+Table\+View\+With\+Key\+Status} (Q\+Vector$<$ \textbf{ cur\+Customer} $>$ customers)
+\begin{DoxyCompactList}\small\item\em vector to Q\+Table\+View \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_abc9cb22e89b21c8e5a119db3a9f00898}} 
+void \textbf{ set\+Purchases} (const Q\+Vector$<$ \textbf{ Purchases} $>$ \&value)
+\begin{DoxyCompactList}\small\item\em set the purchases vector \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a0cfe12c3a867b17965a994f960aedb4f}} 
+Q\+Standard\+Item\+Model $\ast$ \textbf{ customers\+With\+Purchases\+To\+Q\+Table\+View} ()
+\begin{DoxyCompactList}\small\item\em vector to Q\+Table\+View \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_aa1c96bee98621890ebbbf2d6390e5d9c}} 
+void \textbf{ add\+Customer\+To\+Vector\+And\+Data\+Manager} (\textbf{ cur\+Customer} \&customer)
+\begin{DoxyCompactList}\small\item\em add customer this customer vector and to datamanager vector \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_ac27e5b1c1f4a9a91d95c7baf8310e6df}} 
+void \textbf{ set\+Dm} (\textbf{ Data\+Manager} $\ast$value)
+\begin{DoxyCompactList}\small\item\em populate data manager \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a6b55e9a8434a400c89340373d03f0a28}} 
+void \textbf{ delete\+Customer} (int idx)
+\begin{DoxyCompactList}\small\item\em delete all occurences of customer at index \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a05b2fcdc378afaf55d154c9765627d87}} 
+Q\+Vector$<$ \textbf{ cur\+Customer} $>$ \textbf{ get\+Current\+Customers} () const
+\begin{DoxyCompactList}\small\item\em returns a copy of customers \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_ad17635aafa91769def4e20417afa2227}} 
+void \textbf{ resize\+Table\+View} ()
+\begin{DoxyCompactList}\small\item\em resizes table\+View \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_ac164ae5820f11ed0a8b9e489c2aa75eb}} 
+void \textbf{ replace\+Customer} (\textbf{ cur\+Customer} c, int i)
+\begin{DoxyCompactList}\small\item\em replaces customer at index with customer c \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_aabec75751f239c2332a93af823b57e47}} 
+bool \textbf{ add\+Customer\+Via\+Db} (\textbf{ cur\+Customer} customer)
+\begin{DoxyCompactList}\small\item\em add customer to database \end{DoxyCompactList}\item 
+\mbox{\label{classadmin_tools_a2d64c36a19dda76b9079cfde1a826c52}} 
+bool \textbf{ delete\+Customer\+From\+Db} (\textbf{ cur\+Customer} customer)
+\begin{DoxyCompactList}\small\item\em removes customer from database \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+admintools.\+h\item 
+admintools.\+cpp\end{DoxyCompactItemize}

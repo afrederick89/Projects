@@ -1,0 +1,3 @@
+<map id="Ui::addmember" name="Ui::addmember">
+<area shape="rect" id="node2" href="$class_ui__addmember.html" title="{Ui_addmember\n|+ gridLayout\l+ verticalLayout_3\l+ horizontalLayout\l+ customerCreationLabel\l+ horizontalLayout_2\l+ verticalLayout_2\l+ nameLabel\l+ addressLabel\l+ verticalLayout\l+ nameLineEdit\l+ addressLineEdit\l+ horizontalLayout_3\l+ label_2\l+ veryInterestedRadioButton\l+ somewhatInterestedRadioButton\l+ notInterestedRadioButton\l+ horizontalLayout_4\l+ label_3\l+ keyToHaveRadioButton\l+ niceToHaveRadioButton\l+ accept\l+ exit\l+ interestLevelButtonGroup\l+ importanceLevelButtonGroup\l|+ setupUi()\l+ retranslateUi()\l}" alt="" coords="5,5,227,435"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="Ui::DuplicateCustomerErrorWindow" name="Ui::DuplicateCustomerErrorWindow">
+<area shape="rect" id="node2" href="$class_ui___duplicate_customer_error_window.html" title="{Ui_DuplicateCustomerError\lWindow\n|+ groupBox\l+ horizontalLayout\l+ label\l+ retry\l|+ setupUi()\l+ retranslateUi()\l}" alt="" coords="6,5,185,156"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Pamphlet::Pamphlet" name="Pamphlet::Pamphlet">
+<area shape="rect" id="node2" href="$class_pamphlet.html#a14f5d25544eec44204c0949a1452ca7c" title="Pamphlet::allFields" alt="" coords="229,5,362,32"/>
+<area shape="rect" id="node3" href="$class_data_manager.html#a1852c809e5336f41017020e337f6d49d" title="Deletes a customer from the DB. " alt="" coords="193,56,397,83"/>
+<area shape="rect" id="node4" href="$class_s_q_l_manager.html#a39a08afa9877cfafbce4edf22551f2bd" title="Deletes customer from database. " alt="" coords="445,49,624,90"/>
+</map>

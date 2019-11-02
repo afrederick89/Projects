@@ -1,0 +1,78 @@
+\section{Data\+Manager Class Reference}
+\label{class_data_manager}\index{Data\+Manager@{Data\+Manager}}
+
+
+{\ttfamily \#include $<$datamanager.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_data_manager_abbf22d4432100924630b20d503836fdb}} 
+{\bfseries Data\+Manager} (Q\+String \&path)
+\item 
+\mbox{\label{class_data_manager_a291f3b4df4392598b2d7064da062705f}} 
+\textbf{ $\sim$\+Data\+Manager} ()
+\begin{DoxyCompactList}\small\item\em Constructor with path for DB access. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a77186dcf78447f86151386e56a3c660d}} 
+void {\bfseries load\+Data} ()
+\item 
+\mbox{\label{class_data_manager_a3864f04fc4df913a959f7b2f336b528f}} 
+bool \textbf{ validate\+Admin} (Q\+String UN, Q\+String PW)
+\begin{DoxyCompactList}\small\item\em Loads all data functions. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_af3493658adf6511650420a252298e400}} 
+bool \textbf{ validate\+Customer} (Q\+String UN, Q\+String PW)
+\begin{DoxyCompactList}\small\item\em Validates admin login. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a7a0a55b894eba68b56e5fc75b83b5f20}} 
+void \textbf{ get\+Products} (Q\+Vector$<$ \textbf{ cur\+Products} $>$ \&in\+Products)
+\begin{DoxyCompactList}\small\item\em Validates customer login. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a9bdb241bbf43ea5db844611d90c1ef85}} 
+void \textbf{ get\+Plans} (Q\+Vector$<$ \textbf{ Maint\+Plan} $>$ \&in\+Plan)
+\begin{DoxyCompactList}\small\item\em Gets all products from the DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_aa2bf4458f69ddba3859c28941ec7dd8a}} 
+void \textbf{ get\+Purchases} (Q\+Vector$<$ \textbf{ Purchases} $>$ \&in\+Purchases)
+\begin{DoxyCompactList}\small\item\em Gets all plans from the DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a8149c97486b012c307b8e0d4bc977c53}} 
+void \textbf{ get\+Reviews} (Q\+Vector$<$ \textbf{ Testimonial} $>$ \&in\+Review)
+\begin{DoxyCompactList}\small\item\em Gets all purchases from DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a38de2e5628cfdf3c29f30856390ed794}} 
+void \textbf{ return\+Reviews} (Q\+Vector$<$ \textbf{ Testimonial} $>$ \&in\+Review)
+\begin{DoxyCompactList}\small\item\em Gets all reviews from the DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a49b7c178a1ff31d549e0c971ea907060}} 
+void \textbf{ place\+Order} (Q\+Vector$<$ \textbf{ Purchases} $>$ \&in\+Purchase)
+\begin{DoxyCompactList}\small\item\em Returns the vector of reviews by reference. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a3883d9a4a4c0f3a7d3eed790296ad725}} 
+Q\+Vector$<$ \textbf{ cur\+Customer} $>$ \textbf{ get\+Current\+Customers} ()
+\begin{DoxyCompactList}\small\item\em Writes an order to the DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a6a13067ab2132945223ceb2e2a5cafb9}} 
+Q\+Vector$<$ \textbf{ Purchases} $>$ \textbf{ get\+Purchases} ()
+\begin{DoxyCompactList}\small\item\em Returns the current customers. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a22fa6cdda7fbdb2f3eb62c39ef900af8}} 
+void \textbf{ add\+Customer\+To\+Current\+Customers} (\textbf{ cur\+Customer} \&customer)
+\begin{DoxyCompactList}\small\item\em Returns the purchses. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_ae5b82521cb2cfb9e16e226ffd04d7ade}} 
+void \textbf{ delete\+Customer} (int idx)
+\begin{DoxyCompactList}\small\item\em Adds a customer to the Datamanager. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a039902d354b37f4a079fc09b06744911}} 
+void \textbf{ replace\+Customer} (\textbf{ cur\+Customer} c, int idx)
+\begin{DoxyCompactList}\small\item\em Deletes a customer from the Datamanager. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a8e32f47777424ec3901b014e7cc324d0}} 
+bool \textbf{ add\+Customer\+Via\+Db} (\textbf{ cur\+Customer} customer)
+\begin{DoxyCompactList}\small\item\em Replaces a customer in the Datamanager. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_ada49b7b48a25dfa9b95de66e3709da8d}} 
+bool \textbf{ delete\+Customer\+From\+Db} (\textbf{ cur\+Customer} customer)
+\begin{DoxyCompactList}\small\item\em Adds a customer from the DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a1852c809e5336f41017020e337f6d49d}} 
+void \textbf{ add\+Pot\+Customer} (\textbf{ pot\+Customer} \&in\+Pot\+Customer)
+\begin{DoxyCompactList}\small\item\em Deletes a customer from the DB. \end{DoxyCompactList}\item 
+\mbox{\label{class_data_manager_a3a504554dc44e41e268af892178253de}} 
+void \textbf{ Add\+Review} (\textbf{ Testimonial} \&in\+Review)
+\begin{DoxyCompactList}\small\item\em Adds a potential customer to the DB. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\doxyref{Data\+Manager}{p.}{class_data_manager} class -\/ Acquires data from various tables in the Irobot database Sends read/write/delete commands to database 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+datamanager.\+h\item 
+datamanager.\+cpp\end{DoxyCompactItemize}

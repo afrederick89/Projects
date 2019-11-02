@@ -1,0 +1,3 @@
+<map id="Ui::adminTools" name="Ui::adminTools">
+<area shape="rect" id="node2" href="$class_ui__admin_tools.html" title="{Ui_adminTools\n|+ horizontalLayout\l+ verticalLayout_3\l+ verticalLayout_2\l+ verticalLayout\l+ label\l+ listCustomers\l+ listKeyCustomers\l+ listCustomerOrders\l+ addMember\l+ deleteMember\l+ editCustomer\l+ exit\l+ tableView\l|+ setupUi()\l+ retranslateUi()\l}" alt="" coords="5,5,152,273"/>
+</map>

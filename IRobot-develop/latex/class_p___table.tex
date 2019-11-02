@@ -1,0 +1,41 @@
+\section{P\+\_\+\+Table Class Reference}
+\label{class_p___table}\index{P\+\_\+\+Table@{P\+\_\+\+Table}}
+
+
+{\ttfamily \#include $<$p\+\_\+table.\+h$>$}
+
+
+
+Inheritance diagram for P\+\_\+\+Table\+:
+% FIG 0
+
+
+Collaboration diagram for P\+\_\+\+Table\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_p___table_ad8adcc38ae6b69a53539682e7196f04f}} 
+{\bfseries P\+\_\+\+Table} (Q\+Vector$<$ \textbf{ Purchases} $>$ \&in\+Purchase, Q\+String in\+User)
+\item 
+\mbox{\label{class_p___table_a4af3197114cbca3938158ab7839fb305}} 
+Q\+Variant \textbf{ header\+Data} (int section, Qt\+::\+Orientation orientation, int role=Qt\+::\+Display\+Role) const override
+\begin{DoxyCompactList}\small\item\em Constructor with the username and purchase data. \end{DoxyCompactList}\item 
+\mbox{\label{class_p___table_ab3bb48b5f128d7aee0ac3ec8a7cc5940}} 
+int \textbf{ row\+Count} (const Q\+Model\+Index \&parent=Q\+Model\+Index()) const override
+\begin{DoxyCompactList}\small\item\em Sets the header data. \end{DoxyCompactList}\item 
+\mbox{\label{class_p___table_ad8d372100e773bc8dafb078fa3366b3a}} 
+int \textbf{ column\+Count} (const Q\+Model\+Index \&parent=Q\+Model\+Index()) const override
+\begin{DoxyCompactList}\small\item\em Sets row count. \end{DoxyCompactList}\item 
+\mbox{\label{class_p___table_a17cfb93e96a8dcbb57f212ac08f16d5e}} 
+Q\+Variant \textbf{ data} (const Q\+Model\+Index \&index, int role=Qt\+::\+Display\+Role) const override
+\begin{DoxyCompactList}\small\item\em Sets column count. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\doxyref{P\+\_\+\+Table}{p.}{class_p___table} class -\/ populates purchase table with purchases the customer has made from the DB 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+p\+\_\+table.\+h\item 
+p\+\_\+table.\+cpp\end{DoxyCompactItemize}
